@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  color: white;
+}
+.container {
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+section {
+  height: 100vh;
+  scroll-snap-align: start;
+}
+
+.one {
+  background-color: red;
+  font-size: 5rem;
+}
+.two {
+  background-color: black;
+  font-size: 5rem;
+}
+.three {
+  background-color: blue;
+  font-size: 5rem;
+}
+.four {
+  background-color: brown;
+  font-size: 5rem;
+}
+.five {
+  background-color: cornflowerblue;
+  font-size: 5rem;
+}
+.six {
+  background-color: rgb(187, 100, 237);
+  font-size: 5rem;
+}
+/* 
+scroll effect
+parent {
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+child {
+  height: 100vh;
+  scroll-snap-align: start;
+}
+*/
